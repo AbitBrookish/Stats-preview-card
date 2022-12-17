@@ -46,6 +46,55 @@ body {
   background: hsl(244, 38%, 16%);
   min-width: 327px;
   min-height: 540px;
+  padding: 43px 34px 40px 34px;
+}
+
+.info-container {
+  text-align: center;
+}
+
+.info__header {
+  color: hsl(0, 0%, 100%);
+}
+
+#accent {
+  color: hsl(277, 64%, 61%);
+}
+
+.info__intel p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  line-height: 26px;
+  margin-top: 22px;
+}
+
+.info__header, .info__intel p, .info-stats__item h2 {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+.info__stats-container {
+  margin-top: 36px;
+}
+.info-stats__items {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-size: 15px;
+}
+
+.info-stats__item {
+  line-height: 33px;
+}
+.info-stats__item h2 {
+  color: hsl(0, 0%, 100%);
+}
+.info-stats__item p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Lexend Deca', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 1px;
 }
 
 .attribution { 
