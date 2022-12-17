@@ -1,11 +1,44 @@
 
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+html {
+  height: 100vh;
+}
 
+body {
+  height: 100%;
+  display: grid;
+  place-content: center;
+  background: hsl(233, 47%, 7%);
+}
 
+.card-container {
+  max-width: 327px;
+  min-height: 780px;
+}
 
+.card-img__mobile {
+  max-width: 327px;
+}
+@media (min-width: 40rem) {
+  .hide-from-desktop {
+    display: none;
+  }
+}
 
-
+.card-img__desktop {
+  max-width: 556px;
+}
+@media (max-width: 39.375rem) {
+  .hide-from-mobile {
+    display: none;
+  }
+}
 
 
 .attribution { 
