@@ -21,11 +21,17 @@ body {
 
 .card-container {
   max-width: 327px;
-  min-height: 780px;
+  max-height: 780px;
+}
+
+.img-container {
+  max-width: 327px;
 }
 
 .card-img__mobile {
-  max-width: 327px;
+  max-width: 100%;
+  min-height: 100%;
+  display: block;
 }
 @media (min-width: 40rem) {
   .hide-from-desktop {
@@ -47,6 +53,8 @@ body {
   min-width: 327px;
   min-height: 540px;
   padding: 43px 34px 40px 34px;
+  display: flex;
+  flex-direction: column;
 }
 
 .info-container {
@@ -84,7 +92,7 @@ body {
 }
 
 .info-stats__item {
-  line-height: 33px;
+  line-height: 26px;
 }
 .info-stats__item h2 {
   color: hsl(0, 0%, 100%);
